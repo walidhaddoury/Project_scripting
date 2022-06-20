@@ -47,7 +47,7 @@ def to_binary(string):
         Returns
         -------
         array
-            un tableau de caractères binaires
+            An array of binary strings
         """
     array1, array2 = convert_letter_to_ascii(string), []
     for i in array1:
