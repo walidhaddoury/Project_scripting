@@ -1,4 +1,4 @@
-import sys;
+import sys
 
 
 while True:
@@ -12,3 +12,4 @@ while True:
         break
     else:
         continue
+
