@@ -37,7 +37,7 @@ def convert_letter_to_ascii(string):
 
 
 def to_binary(string):
-    """Conversion de l'input en un tableau de nombres binaires
+    """Converting the input into an array of binary numbers
 
         Parameters
         ----------
