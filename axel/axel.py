@@ -12,4 +12,11 @@ def convert_letter_to_ascii(string):
     return array
 
 
-print(convert_letter_to_ascii(letters))
+def to_binary(string):
+    array1, array2 = convert_letter_to_ascii(string), []
+    for i in array1:
+        array2.append(int(bin(i)[2:]))  # [2:] Slice two first characters from the beginning
+    return array2
+
+
+print(to_binary(letters))
