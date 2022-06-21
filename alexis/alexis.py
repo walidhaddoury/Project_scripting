@@ -10,3 +10,4 @@ def conver_letter_to_ascii(string):
     return array
 
 print(conver_letter_to_ascii(letters))
+
